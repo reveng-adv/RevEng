@@ -1,0 +1,42 @@
+
+import numpy as np
+'''
+a1 = np.load("./features/cifar10/zoo_adv_train1.npy")
+a2 = np.load("./features/cifar10/zoo_adv_train2.npy")
+a3 = np.load("./features/cifar10/zoo_adv_train3.npy")
+a4 = np.load("./features/cifar10/zoo_adv_train4.npy")
+aa = np.concatenate((a1,a2,a3,a4))
+print(aa.shape)
+np.save("./features/cifar10/zoo_adv_train.npy",aa)
+
+a1 = np.load("./features/cifar10/zoo_adv_test1.npy")
+a2 = np.load("./features/cifar10/zoo_adv_test2.npy")
+a3 = np.load("./features/cifar10/zoo_adv_test3.npy")
+a4 = np.load("./features/cifar10/zoo_adv_test4.npy")
+aa = np.concatenate((a1,a2,a3,a4))
+print(aa.shape)
+np.save("./features/cifar10/zoo_adv_test.npy",aa)
+'''
+a1 = np.load("./features/cifar10/CW_adv1.npy")
+a2 = np.load("./features/cifar10/CW_adv2.npy")
+a3 = np.load("./features/cifar10/CW_adv3.npy")
+a4 = np.load("./features/cifar10/CW_adv4.npy")
+aa = np.concatenate((a1,a2,a3,a4))
+print(aa.shape)
+np.save("./features/cifar10/CW_adv10k.npy",aa)
+
+a1 = np.load("./features/cifar10/distortion_cw1.npy")
+a2 = np.load("./features/cifar10/distortion_cw2.npy")
+a3 = np.load("./features/cifar10/distortion_cw3.npy")
+a4 = np.load("./features/cifar10/distortion_cw4.npy")
+aa = np.concatenate((a1,a2,a3,a4))
+print(aa.shape)
+np.save("./features/cifar10/distortion_cw10k.npy",aa)
+
+a1 = np.load("./features/cifar10/CW_success1.npy")
+a2 = np.load("./features/cifar10/CW_success2.npy")
+a3 = np.load("./features/cifar10/CW_success3.npy")
+a4 = np.load("./features/cifar10/CW_success4.npy")
+aa = np.concatenate((a1,a2,a3,a4))
+print(aa.shape)
+np.save("./features/cifar10/CW_success10k.npy",aa)
